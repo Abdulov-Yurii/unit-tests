@@ -19,6 +19,7 @@ public class IndependentPrincipleTest {
     @Test
     @Ignore
     public void test1() throws Exception {
+        result = 0;
         result += 2;
         assertEquals(2, result);
     }
